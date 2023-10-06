@@ -162,4 +162,51 @@
   }
 }
 
+/* Esercizio 11 */
+
+.row .col-xs-12 .well .ex-11-icon.fas.fa-circle-notch {
+  animation-name: almost-rotate;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes almost-rotate {
+  50% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+/* Esercizio 12 */
+
+.row .col-xs-12 .well .ex-12-top-white {
+  animation-name: top-animate;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes top-animate {
+  50% {
+    transform: translateX(100px);
+  }
+}
+
+.row .col-xs-12 .well .ex-12-bottom-white {
+  animation-name: bottom-animate;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes bottom-animate {
+  50% {
+    transform: translateX(-100px);
+  }
+}
+
 /* #endregion */
