@@ -116,4 +116,20 @@
   opacity: 0;
 }
 
+/* Esercizio 5 */
+
+.row .col-xs-12 .well .ex-5-square {
+  transition: all 1s linear;
+}
+
+.row .col-xs-12 .well .ex-5-square:hover {
+  width: 100px;
+  height: 100px;
+}
+
+.row .col-xs-12 .well .ex-5-square:active {
+  width: 80px;
+  height: 80px;
+}
+
 /* #endregion */
