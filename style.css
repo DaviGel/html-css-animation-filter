@@ -76,12 +76,24 @@
 /* #region MIO STYLE */
 
 /* Esercizio 1 */
+
 .row .col-xs-12 .well .ex-1-square {
   transition: background-color 1s linear;
 }
 
 .row .col-xs-12 .well .ex-1-square:hover {
   background-color: red;
+}
+
+/* Esercizio 2 */
+
+.row .col-xs-12 .well .ex-2-square {
+  transition: all 1s linear;
+}
+
+.row .col-xs-12 .well .ex-2-square:active {
+  width: 900px;
+  height: 500px;
 }
 
 /* #endregion */
