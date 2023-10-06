@@ -106,4 +106,14 @@
   border-radius: 50%;
 }
 
+/* Esercizio 4 */
+
+.row .col-xs-12 .well .ex-4-square {
+  transition: opacity 1s linear;
+}
+
+.row .col-xs-12 .well .ex-4-square:hover {
+  opacity: 0;
+}
+
 /* #endregion */
